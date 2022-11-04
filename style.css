@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #90b7f5 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ header{
+    position: relative;
+    height: 75%;
+    width: 58%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 51px  rgb(37, 21, 103);
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: 1s linear;
+ }
+ header .name{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 200px;
+    height: 35px;
+    background: #90b7f5;
+    transition: 1s linear;
+
+ }
+ header .name h2{
+    color:#FFFFFF;
+    text-align: center;
+    
+ }
+ 
+ header nav{
+    width : 100%;
+    height: 10%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+ }
+ header nav.rMenu{
+    display: flex;
+    align-items: center;
+    
+ }
+header nav.rMenu ul{
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+header nav.rMenu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+header nav.rMenu ul li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+    transition: .4s linear;
+}
+header section .cards{
+   width: 90%;
+   height: 140px;
+   border: 1px solid #000;
+   position: relative;
+   top: 10%;
+   padding-left: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   overflow: auto;
+   scroll-behavior: smooth;
+   transition: 1s linear;
+}
+header section .cards .card{
+   position: relative;
+   min-width: 125px;
+   min-height: 125px;
+   border: 1px solid #000;
+   margin-right: 13px;
+   background: #F5DEB3;
+   border-radius: 10px 10px 10px 10px;
+
+}
+header  section .cards .card .americano{
+   width: 80px;
+   height: 80px;
+   position: relative;
+}
+header  section .cards .card .h5{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   color: rgb(59, 11, 11);
+   font-size: 13px;
+   font-weight: 600;
+   margin-top: -8px;
+}
+header  section .cards .card .rate{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2px 10px;
+   color : rgb(59, 11, 11);
+}
+header  section .cards .card .rate .bi{
+   font-size: 12px;
+}
+@media screen and (max-width: 1260px){
+   header {
+      width: 83%;
+   }
+
+}
+@media screen and (max-width: 885px){
+   header {
+      width: 95%;
+   }
+
+}
+
+@media screen and (max-width: 775px){
+   header section{
+      width: 92%;
+      
+   }
+   header .name{
+      left: 13%
+   }
+
+}
+@media screen and (max-width: 730px){
+   header {
+      width: 100%;
+      height: 100%;
+   }
+
+}
+   
+
+
+
+
+ 
+ 
